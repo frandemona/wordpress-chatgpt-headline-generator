@@ -59,7 +59,7 @@ function chatgpt_headline_generator_settings_page()
 <?php
 }
 
-// TODO: Missing updating through javascript metadata just updateds
+// TODO: Missing updating through javascript metadata just updated
 function chatgpt_generate_headlines($post_id)
 {
   if (wp_is_post_revision($post_id)) {
